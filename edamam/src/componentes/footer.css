@@ -1,7 +1,6 @@
 .footer {
     background-color: #333;
     color: white;
-    padding: 20px 0;
     text-align: center;
     position: relative;
     bottom: 0;
@@ -11,13 +10,4 @@
   
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    margin: 0;
 }
-  
-.container p {
-    margin: 0;
-}
-  
-  /* Agrega más estilos según tus preferencias */
-  

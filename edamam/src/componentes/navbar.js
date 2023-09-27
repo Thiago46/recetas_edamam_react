@@ -1,22 +1,19 @@
 import React from 'react';
-import './navbar.css'
+import './navbar.css';
 
-function nav(){
+function Nav() {
   return (
-    <>
     <div className="navbar">
       <div className="left-section">
-        {/* <img src={logo} alt="Logo" className="logo" /> */}
-        <span className="logo-name">Hoy Cocino Yo</span>
+        <h1>HOY COCINO YO</h1>
       </div>
       <div className="right-section">
         <ul className="menu">
-
+          {/* Agrega elementos de menú aquí */}
         </ul>
       </div>
     </div>
-    </>  
   );
-};
+}
 
-export default nav;
+export default Nav;
